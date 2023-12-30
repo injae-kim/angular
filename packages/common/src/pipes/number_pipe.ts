@@ -97,7 +97,7 @@ export class DecimalPipe implements PipeTransform {
   transform(value: number|string|null|undefined, digitsInfo?: string, locale?: string): string
       |null {
     if (!isValue(value)) return null;
-
+test
     locale = locale || this._locale;
 
     try {
